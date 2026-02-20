@@ -1,164 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>All Stars Restaurant & Bar | Savor the Best in Town!</title>
-    <meta name="description" content="Dine like a VIP at All Stars Restaurant & Bar! Indulge in our signature dishes, crafted cocktails & live entertainment. Book your table now & experience the star treatment!">
-    <link rel="canonical" href="https://allstarsrestaurantandbar.pages.dev/">
-    <meta property="og:title" content="All Stars Restaurant & Bar | Savor the Best in Town!">
-    <meta property="og:description" content="Exceptional dining with signature dishes, crafted cocktails & live entertainment in Foodie Town.">
-    <meta property="og:url" content="https://allstarsrestaurantandbar.pages.dev/">
-    <meta property="og:type" content="website">
-    <link rel="stylesheet" href="styles.css">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Restaurant",
-        "name": "All Stars Restaurant & Bar",
-        "description": "Exceptional dining experience with signature dishes, crafted cocktails, and live entertainment.",
-        "url": "https://allstarsrestaurantandbar.pages.dev",
-        "telephone": "123-456-7890",
-        "email": "info@allstarsrestaurantandbar.com",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "456 Dining Street",
-            "addressLocality": "Foodie Town",
-            "addressRegion": "FT",
-            "postalCode": "12345"
-        },
-        "openingHoursSpecification": [
-            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "11:00", "closes": "22:00"},
-            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "23:00"},
-            {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "21:00"}
-        ],
-        "servesCuisine": "American",
-        "priceRange": "$$"
-    }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>All Stars Restaurant & Bar | Savor the Best in Town!</title>
+<meta name="description" content="Dine like a VIP at All Stars Restaurant & Bar! Indulge in our signature dishes, crafted cocktails & live entertainment.">
+<link rel="canonical" href="https://allstarsrestaurantandbar.pages.dev/">
+<meta property="og:title" content="All Stars Restaurant & Bar | Savor the Best in Town!">
+<meta property="og:description" content="Dine like a VIP at All Stars Restaurant & Bar! Indulge in our signature dishes, crafted cocktails & live entertainment.">
+<meta property="og:url" content="https://allstarsrestaurantandbar.pages.dev/">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="/css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"All Stars Restaurant & Bar","description":"Exceptional dining experience with signature dishes, crafted cocktails, and live entertainment.","url":"https://allstarsrestaurantandbar.pages.dev","telephone":"123-456-7890","email":"info@allstarsrestaurantandbar.com","address":{"@type":"PostalAddress","streetAddress":"456 Dining Street","addressLocality":"Foodie Town","addressRegion":"FT","postalCode":"12345"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday"],"opens":"11:00","closes":"22:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"11:00","closes":"23:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"11:00","closes":"21:00"}],"servesCuisine":"American","priceRange":"$$"}</script>
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <a href="index.html" class="logo">All <span>Stars</span></a>
-            <button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('open')" aria-label="Toggle menu">
-                <span></span><span></span><span></span>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<header>
+<div class="container header-inner">
+<a href="/" class="logo">All <span>Stars</span></a>
+<button class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('open')" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+<nav><ul>
+<li><a href="/" class="active">Home</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/contact-us/">Contact</a></li>
+<li><a href="/posts/">Blog</a></li>
 
-    <section class="hero">
-        <div class="container">
-            <h1>Welcome to All Stars Restaurant & Bar</h1>
-            <p>Where every meal is a star performance. Fresh ingredients, crafted cocktails, and unforgettable moments — all under one roof.</p>
-            <a href="menu.html" class="btn">View Our Menu</a>
-            <a href="contact.html" class="btn btn-outline" style="margin-left:1rem;">Make a Reservation</a>
-        </div>
-    </section>
+</ul></nav>
+</div>
+</header>
 
-    <section>
-        <div class="container">
-            <h2 class="section-title">Why All Stars?</h2>
-            <p class="section-subtitle">More than a restaurant — a complete dining experience</p>
-            <div class="grid grid-3">
-                <div class="card">
-                    <h3>🥘 Fresh & Local</h3>
-                    <p>We source our ingredients locally whenever possible, ensuring every dish is crafted from the freshest produce available. Our farm-to-table philosophy supports local farmers and delivers unbeatable flavor.</p>
-                </div>
-                <div class="card">
-                    <h3>🍸 Craft Cocktails</h3>
-                    <p>Our bar features an impressive array of artisanal cocktails, fine wines, craft beers, and refreshing mocktails. Don't miss our daily happy hour specials for great deals on your favorites.</p>
-                </div>
-                <div class="card">
-                    <h3>🎵 Live Entertainment</h3>
-                    <p>With regular live music performances, themed events, and a warm atmosphere, we provide not just a meal but a complete evening of entertainment and relaxation.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="hero">
+<div class="container">
+<h1>Welcome to All Stars Restaurant & Bar</h1>
+<p>Where every meal is a star performance. Fresh ingredients, crafted cocktails, and unforgettable moments — all under one roof.</p>
+<a href="/contact-us/" class="btn">Make a Reservation</a>
+</div>
+</section>
 
-    <section style="background: var(--white);">
-        <div class="container text-container">
-            <h2 class="section-title">Our Story</h2>
-            <p style="text-align:center; margin-bottom:1.5rem;">Welcome to All Stars Restaurant and Bar, where we pride ourselves on offering an exceptional dining experience that satisfies your cravings and creates lasting memories. Located in the heart of the community, our restaurant is the perfect spot for family gatherings, date nights, and celebrations with friends.</p>
-            <p style="text-align:center; margin-bottom:1.5rem;">At All Stars, we believe in using only the freshest ingredients, sourced locally whenever possible. Our diverse menu features a mouthwatering selection of dishes that cater to all tastes, including tantalizing appetizers, hearty entrees, decadent desserts, and a variety of signature cocktails.</p>
-            <p style="text-align:center; margin-bottom:2rem;">Whether you're in the mood for a juicy burger, savory pasta, or healthy salads, we have something that will delight your palate. The ambiance at All Stars is warm and inviting, making it the ideal place to relax and socialize.</p>
-            <div style="text-align:center;"><a href="about.html" class="btn">Learn More About Us</a></div>
-        </div>
-    </section>
+<section>
+<div class="container">
+<h2 class="section-title">Why All Stars?</h2>
+<p class="section-subtitle">More than a restaurant — a complete dining experience</p>
+<div class="grid grid-3">
+<div class="card"><h3>🥘 Fresh & Local</h3><p>We source our ingredients locally whenever possible, ensuring every dish is crafted from the freshest produce available. Our farm-to-table philosophy supports local farmers and delivers unbeatable flavor.</p></div>
+<div class="card"><h3>🍸 Craft Cocktails</h3><p>Our bar features an impressive array of artisanal cocktails, fine wines, craft beers, and refreshing mocktails. Don't miss our daily happy hour specials for great deals on your favorites.</p></div>
+<div class="card"><h3>🎵 Live Entertainment</h3><p>With regular live music performances, themed events, and a warm atmosphere, we provide not just a meal but a complete evening of entertainment and relaxation.</p></div>
+</div>
+</div>
+</section>
 
-    <section>
-        <div class="container">
-            <h2 class="section-title">From Our Blog</h2>
-            <p class="section-subtitle">Tips, guides, and stories from the All Stars kitchen</p>
-            <div class="grid grid-3">
-                <div class="card blog-card">
-                    <div class="card-img" style="background: linear-gradient(135deg, #0077B6, #48CAE4);"></div>
-                    <div class="blog-meta">February 2026</div>
-                    <h3><a href="blog-post-1.html">Ultimate Dining Guide: Mastering Our Menu Like a Pro</a></h3>
-                    <p>Discover the best dishes, perfect pairings, and insider tips to make the most of your All Stars dining experience.</p>
-                </div>
-                <div class="card blog-card">
-                    <div class="card-img" style="background: linear-gradient(135deg, #1B3A4B, #00B4D8);"></div>
-                    <div class="blog-meta">February 2026</div>
-                    <h3><a href="blog.html">Master Cocktail-Making at Home</a></h3>
-                    <p>Learn the art and science of mixing our signature drinks with techniques from our expert bartenders.</p>
-                </div>
-                <div class="card blog-card">
-                    <div class="card-img" style="background: linear-gradient(135deg, #48CAE4, #0077B6);"></div>
-                    <div class="blog-meta">January 2026</div>
-                    <h3><a href="blog.html">Savoring Culinary Delights Worldwide</a></h3>
-                    <p>A journey through global flavors and the traditions that inspire our ever-evolving seasonal menu.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<section style="background: var(--white);">
+<div class="container text-container">
+<h2 class="section-title">Our Story</h2>
+<p style="text-align:center; margin-bottom:1.5rem;">Welcome to All Stars Restaurant and Bar, where we pride ourselves on offering an exceptional dining experience that satisfies your cravings and creates lasting memories. Located in the heart of the community, our restaurant is the perfect spot for family gatherings, date nights, and celebrations with friends.</p>
+<p style="text-align:center; margin-bottom:1.5rem;">At All Stars, we believe in using only the freshest ingredients, sourced locally whenever possible. Our diverse menu features a mouthwatering selection of dishes that cater to all tastes, including tantalizing appetizers, hearty entrees, decadent desserts, and a variety of signature cocktails.</p>
+<p style="text-align:center; margin-bottom:2rem;">Whether you're in the mood for a juicy burger, savory pasta, or healthy salads, we have something that will delight your palate. The ambiance at All Stars is warm and inviting, making it the ideal place to relax and socialize.</p>
+<div style="text-align:center;"><a href="/about/" class="btn">Learn More About Us</a></div>
+</div>
+</section>
 
-    <section style="background: linear-gradient(135deg, var(--dark), var(--primary-dark)); color: var(--white); text-align: center;">
-        <div class="container">
-            <h2 style="font-size: 2rem; margin-bottom: 1rem;">Ready for a Star Experience?</h2>
-            <p style="opacity: 0.9; margin-bottom: 2rem; font-size: 1.1rem;">Join us for an unforgettable meal. Walk-ins welcome or call to reserve your table.</p>
-            <a href="tel:1234567890" class="btn" style="background: var(--white); color: var(--dark);">Call 123-456-7890</a>
-            <a href="contact.html" class="btn btn-outline" style="margin-left: 1rem;">Get Directions</a>
-        </div>
-    </section>
+<section>
+<div class="container">
+<h2 class="section-title">From Our Blog</h2>
+<p class="section-subtitle">Tips, guides, and stories from the All Stars kitchen</p>
+<div class="grid grid-3">
+<div class="card blog-card"><div class="card-img" style="background: linear-gradient(135deg, #0077B6, #48CAE4);"></div><div class="blog-meta">February 2026</div><h3><a href="/posts/ultimate-dining-guides-mastering-all-stars-restaurants-menu-like-a-pro/">Ultimate Dining Guide: Mastering Our Menu Like a Pro</a></h3><p>Discover what makes our menu unique and get insider tips on the best dishes to order.</p></div>
+<div class="card blog-card"><div class="card-img" style="background: linear-gradient(135deg, #1B3A4B, #00B4D8);"></div><div class="blog-meta">February 2026</div><h3><a href="/posts/master-cocktail-making-craft-your-favorite-all-stars-signature-drinks-at-home/">Master Cocktail-Making at Home</a></h3><p>Learn the art and science of mixing our signature drinks with techniques from our expert bartenders.</p></div>
+<div class="card blog-card"><div class="card-img" style="background: linear-gradient(135deg, #48CAE4, #0077B6);"></div><div class="blog-meta">January 2026</div><h3><a href="/posts/savoring-culinary-delights-top-dishes-to-try-worldwide/">Savoring Culinary Delights Worldwide</a></h3><p>A journey through global flavors and the traditions that inspire our ever-evolving seasonal menu.</p></div>
+</div>
+</div>
+</section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <h4>All Stars Restaurant & Bar</h4>
-                    <p style="font-size:0.9rem;">456 Dining Street<br>Foodie Town, FT 12345</p>
-                    <p style="font-size:0.9rem; margin-top:0.5rem;">Phone: 123-456-7890<br>Email: info@allstarsrestaurantandbar.com</p>
-                </div>
-                <div>
-                    <h4>Quick Links</h4>
-                    <a href="menu.html">Our Menu</a>
-                    <a href="events.html">Events</a>
-                    <a href="gallery.html">Gallery</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="contact.html">Contact Us</a>
-                </div>
-                <div>
-                    <h4>Hours</h4>
-                    <p style="font-size:0.9rem;">Mon–Thu: 11 AM – 10 PM<br>Fri–Sat: 11 AM – 11 PM<br>Sun: 11 AM – 9 PM</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 All Stars Restaurant & Bar. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
-            </div>
-        </div>
-    </footer>
+<section style="background: linear-gradient(135deg, var(--dark), var(--primary-dark)); color: var(--white); text-align: center;">
+<div class="container">
+<h2 style="font-size: 2rem; margin-bottom: 1rem;">Ready for a Star Experience?</h2>
+<p style="opacity: 0.9; margin-bottom: 2rem; font-size: 1.1rem;">Join us for an unforgettable meal. Walk-ins welcome or call to reserve your table.</p>
+<a href="tel:1234567890" class="btn" style="background: var(--white); color: var(--dark);">Call 123-456-7890</a>
+<a href="/contact-us/" class="btn btn-outline" style="margin-left: 1rem;">Get Directions</a>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="footer-grid">
+<div><h4>All Stars Restaurant & Bar</h4><p style="font-size:0.9rem;">456 Dining Street<br>Foodie Town, FT 12345</p><p style="font-size:0.9rem; margin-top:0.5rem;">Phone: 123-456-7890<br>Email: info@allstarsrestaurantandbar.com</p></div>
+<div><h4>Quick Links</h4><a href="/about/">About</a><a href="/posts/">Blog</a><a href="/contact-us/">Contact Us</a></div>
+<div><h4>Hours</h4><p style="font-size:0.9rem;">Mon–Thu: 11 AM – 10 PM<br>Fri–Sat: 11 AM – 11 PM<br>Sun: 11 AM – 9 PM</p></div>
+</div>
+<div class="footer-bottom"><p>&copy; 2026 All Stars Restaurant & Bar. All rights reserved. | <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms of Service</a></p></div>
+</div>
+</footer>
 </body>
 </html>
