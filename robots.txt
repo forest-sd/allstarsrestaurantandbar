@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://allstarsrestaurantandbar.pages.dev/sitemap.xml
+Sitemap: https://allstarsrestaurantandbar.com/sitemap.xml
